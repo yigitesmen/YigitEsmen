@@ -1,0 +1,72 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="accent" x1="52.49" y1="625.73" x2="592.67" y2="252.9" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF2D8F"/>
+      <stop offset="1" stop-color="#D91B73"/>
+    </linearGradient>
+    <linearGradient id="accentH" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF2D8F"/>
+      <stop offset="1" stop-color="#D91B73"/>
+    </linearGradient>
+
+    <!-- primary brand glow, anchored behind the logo/name lockup -->
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 60) scale(440 440)">
+      <stop offset="0" stop-color="#FF2D8F" stop-opacity="0.19"/>
+      <stop offset="1" stop-color="#FF2D8F" stop-opacity="0"/>
+    </radialGradient>
+    <!-- secondary glow, top-right corner accent -->
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 10) scale(400 400)">
+      <stop offset="0" stop-color="#F299C3" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#F299C3" stop-opacity="0"/>
+    </radialGradient>
+    <!-- soft horizontal wash so the glow reaches all the way to the right edge -->
+    <linearGradient id="glowSpread" x1="620" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF2D8F" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FF2D8F" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <!-- yigitesmen.com hero__bg grid, nudged up slightly for a more premium technical feel -->
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="gridFade" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="white" stop-opacity="1"/>
+      <stop offset="0.6" stop-color="white" stop-opacity="1"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.45"/>
+    </linearGradient>
+    <mask id="gridMask">
+      <rect width="1200" height="260" fill="url(#gridFade)"/>
+    </mask>
+
+  </defs>
+
+  <rect width="1200" height="260" fill="#000000"/>
+  <rect width="1200" height="260" fill="url(#glow1)"/>
+  <rect width="1200" height="260" fill="url(#glow2)"/>
+  <rect width="1200" height="260" fill="url(#glowSpread)"/>
+  <rect width="1200" height="260" fill="url(#grid)" mask="url(#gridMask)"/>
+
+  <!-- brand lockup: logo + name/title/support, treated as one unit -->
+  <g transform="translate(66,58) scale(0.225)">
+    <path d="M68.1128 644L320.079 210.484L355.16 234.042L139.042 604.31H598.677L572.558 564.108L607.383 539.526L667.558 644H68.1128Z" fill="url(#accent)"/>
+    <path d="M375.645 104.474L438.381 0.00012207L736.951 519.041H236.603V479.095H665.765L438.381 82.4526L410.982 127.264L375.645 104.474Z" fill="url(#accent)"/>
+    <path d="M0 519.809L300.619 0.00012207L550.537 434.028L516.736 455.793L300.363 84.245L69.3932 479.897H120.35V519.809H0Z" fill="url(#accent)"/>
+  </g>
+
+  <text x="260" y="118" font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif" font-size="50" font-weight="800" fill="#FFFFFF" letter-spacing="0.2">Yigit Esmen</text>
+  <text x="270" y="159" font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif" font-size="21" font-weight="600" fill="#FF8CBD" letter-spacing="0.3">Web &amp; Mobile Developer</text>
+  <text x="270" y="191" font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="400" fill="#9A97A6">Building modern web &amp; mobile experiences</text>
+
+  <!-- ambient developer marks, right side — extremely low opacity, purely atmospheric -->
+  <g font-family="'SFMono-Regular','Fira Code',Menlo,Consolas,monospace" fill="#FFFFFF">
+    <text x="855" y="88" font-size="34" fill="#FF8CBD" opacity="0.10">&lt;/&gt;</text>
+    <text x="1078" y="66" font-size="24" opacity="0.07">{ }</text>
+    <text x="792" y="158" font-size="16" opacity="0.06" letter-spacing="1">const</text>
+    <text x="1000" y="199" font-size="15" fill="#FF8CBD" opacity="0.07">npm</text>
+    <text x="1122" y="146" font-size="15" opacity="0.06">git</text>
+    <text x="945" y="222" font-size="17" opacity="0.05">01</text>
+  </g>
+
+  <!-- clean, even hairline across the full width -->
+  <rect x="0" y="258" width="1200" height="2" fill="url(#accentH)"/>
+</svg>
