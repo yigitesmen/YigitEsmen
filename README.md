@@ -155,11 +155,11 @@ Architecture review and technical roadmap planning for early-stage and scaling p
 <a href="https://yigitesmen.com/projects/dropline"><img src="./assets/covers/dropline.webp" width="100%" alt="Dropline messaging app screenshots"/></a>
 
 **[Dropline — Real-Time Messaging App](https://yigitesmen.com/projects/dropline)**
-Instant delivery across one-on-one and group chats, with a validated, guided sign-up flow. In active development ahead of Google Play Store release.
+Instant delivery across one-on-one chats, group chats, and community channels, with a validated, guided sign-up flow. In active development ahead of Google Play Store release.
 
 <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" /> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" /> <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" /> <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO" />
 
-[Code](https://github.com/yigitesmen/dropline-mobile) · [Details](https://yigitesmen.com/projects/dropline)
+[Mobile Code](https://github.com/yigitesmen/dropline-mobile) · [API Code](https://github.com/yigitesmen/dropline-api) · [Details](https://yigitesmen.com/projects/dropline)
 
 </td>
 </tr>
